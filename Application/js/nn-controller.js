@@ -5,7 +5,7 @@ let myDiagram = objGo(go.Diagram, "myDiagramDiv",
         initialContentAlignment: go.Spot.Center,// center diagram contents
         "undoManager.isEnabled": true,          // enable Ctrl-Z to undo and Ctrl-Y to redo
         allowZoom: false,                       // enable zoom diagram
-        "grid.visible": false,                  //
+        "grid.visible": false,                  
         "commandHandler.copiesTree": true,
         "commandHandler.deletesTree": true,
         "draggingTool.dragsTree": false,

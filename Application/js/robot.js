@@ -209,7 +209,7 @@ class Robot extends PIXI.Container {
 
     reset_sensor(){
 		this.sensor_range = document.getElementById("vision").value;
-		console.log(this.sensor_range);
+		//console.log(this.sensor_range);
 		return this.sensor_range;
 	}
 
